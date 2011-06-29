@@ -1,0 +1,3 @@
+# /etc/cron.d/southern-monitoring
+# cron fragment for Southern's monitoring
+55       *    *       *       *       /srv/monitoring/bin/dell-om-monitor.pl
