@@ -1,0 +1,10 @@
+Dell Open Manage Monitor (PERC RAID controller monitoring)
+
+Dell provides tools to access many of the otherwise hidden features in its
+hardware. One of the tools, omreport, allows you to pull information out of
+open manage. We wanted to check the RAID controller and find out if the RAID
+has failed or if a hardware failure has been predicted by the controller.
+
+This script allows you to set up a cron job to query Open Manage on a regular
+basis to get the extra information. We use it on a Dell PowerEdge 2950 running
+Ubuntu 10.04.
