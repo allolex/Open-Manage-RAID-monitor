@@ -8,3 +8,16 @@ has failed or if a hardware failure has been predicted by the controller.
 This script allows you to set up a cron job to query Open Manage on a regular
 basis to get the extra information. We use it on a Dell PowerEdge 2950 running
 Ubuntu 10.04.
+
+More information on omreport can be found here:
+
+http://support.dell.com/support/edocs/software/svradmin/1.9/en/cli/cli_cc5s.htm
+
+Dell software and firmware can be added to your APT sources via
+
+# Software
+deb http://linux.dell.com/repo lucid dell-software
+deb-src http://linux.dell.com/repo lucid dell-software
+deb http://linux.dell.com/repo/community/deb/latest /
+# Firmware
+deb http://linux.dell.com/repo cross-distro dell-firmware
